@@ -17,7 +17,7 @@
 
 .button:hover,
 .button:active {
-  background: #af315b;
+  background: #974460;
   border-color: #c35378;
 }
 
@@ -29,7 +29,7 @@
 .button--inverse:hover,
 .button--inverse:active {
   color: white;
-  background: #8b3b56;
+  background: #f4719d;
 }
 
 .button--danger {
