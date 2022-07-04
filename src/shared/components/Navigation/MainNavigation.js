@@ -37,7 +37,7 @@ const MainNavigation = props => {
           <span />
         </button>
         <h1 className="main-navigation__title">
-          <Link to="/">Yoga Studios around the world</Link>
+          <Link to="/">YOGA STUDIOS AROUND THE WORLD</Link>
         </h1>
         <nav className="main-navigation__header-nav">
           <NavLinks />

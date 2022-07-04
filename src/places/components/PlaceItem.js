@@ -46,7 +46,7 @@ const PlaceItem = props => {
       <Modal
         show={showConfirmModal}
         onCancel={cancelDeleteHandler}
-        header="Delete? ?"
+        header="Are you sure?"
         footerClass="place-item__modal-actions"
         footer={
           <React.Fragment>
@@ -60,8 +60,7 @@ const PlaceItem = props => {
         }
       >
         <p>
-          Do you want to proceed and delete this place? Please note that it
-          can't be undone thereafter.
+          Are you sure you want to delete ?.
         </p>
       </Modal>
       <li className="place-item">
